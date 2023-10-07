@@ -42,7 +42,9 @@ class Search extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(width: 15),
+                const SizedBox(
+                  width: 15,
+                ),
                 SizedBox(
                     width: 35,
                     height: 35,
