@@ -31,12 +31,28 @@ class Search extends StatelessWidget {
                           'assets/icons/search.svg',
                           color: dark1,
                         ),
-                        Text('Cari layanan, makanan, & tujuan'),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Text(
+                          'Cari layanan, makanan, & tujuan',
+                          style: regular14.copyWith(color: dark3),
+                        ),
                       ],
                     ),
                   ),
                 ),
-                Container()
+                const SizedBox(width: 15),
+                SizedBox(
+                    width: 35,
+                    height: 35,
+                    child: Stack(
+                      children: [
+                        Container(
+                          child: Image.asset('assets/images/avatar.png'),
+                        )
+                      ],
+                    ))
               ],
             ),
           )
