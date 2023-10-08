@@ -51,7 +51,27 @@ class Search extends StatelessWidget {
                     child: Stack(
                       children: [
                         Container(
-                          child: Image.asset('assets/images/avatar.png'),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(35 / 2),
+                          ),
+                          clipBehavior: Clip.hardEdge,
+                          child: Image.asset('images/avatar.png'),
+                        ),
+                        Positioned(
+                          right: 0,
+                          bottom: 0,
+                          child: Container(
+                            width: 16,
+                            height: 16,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(35 / 2),
+                                color: const Color(0XFFD1E7EE)),
+                            clipBehavior: Clip.hardEdge,
+                            child: SvgPicture.asset(
+                              'icons/goclub.svg',
+                              color: const Color(0xFF38BBDA),
+                            ),
+                          ),
                         )
                       ],
                     ))
