@@ -55,7 +55,7 @@ class Search extends StatelessWidget {
                             borderRadius: BorderRadius.circular(35 / 2),
                           ),
                           clipBehavior: Clip.hardEdge,
-                          child: Image.asset('images/avatar.png'),
+                          child: Image.asset('assets/images/avatar.png'),
                         ),
                         Positioned(
                           right: 0,
@@ -68,7 +68,7 @@ class Search extends StatelessWidget {
                                 color: const Color(0XFFD1E7EE)),
                             clipBehavior: Clip.hardEdge,
                             child: SvgPicture.asset(
-                              'icons/goclub.svg',
+                              'assets/icons/goclub.svg',
                               color: const Color(0xFF38BBDA),
                             ),
                           ),

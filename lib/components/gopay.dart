@@ -86,7 +86,7 @@ class Gopay extends StatelessWidget {
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Image.asset('images/gopay.png'),
+                            Image.asset('assets/images/gopay.png'),
                             Text(
                               'Rp12.379',
                               style: bold16,
